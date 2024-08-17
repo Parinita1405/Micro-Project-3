@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    display: block;
+}
+
+
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:  #3B4664;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column ;
+    
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+    margin-right: 278px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input{
+    height: 15%;
+    margin-top: 30px ;
+
+}
+.numInput{
+
+    background-color: #181F32;
+    height: 80%;
+    width: 330px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+}
+
+.numInput::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.buttonContainer{
+     
+    height: 330px;
+    width: 330px;
+    background-color: #252D44;
+    border-radius: 10px;
+    
+
+    
+    
+    
+}
+.button1_box{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows: repeat(4,40px);
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+
+}
+
+.button{
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    color: #3B4664;
+    border: none;
+
+}
+
+.del{
+    background-color:#647299;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.button2_box{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+    gap: 15px;
+}
+
+.button2_box button{
+    height: 40px;
+    width: 135px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+    
+}
+
+#reset{
+    background-color: #647299;
+    border: none;
+    color: #ffffff;
+   
+}
+ 
+#equal{
+    background-color: #D13F30;
+    border: none;
+    color: #ffffff;
+}
